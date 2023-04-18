@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/nav_home"
+   android:icon="@drawable/home"
+    android:title="@string/title_home"></item>
+    <item
+        android:id="@+id/nav_zadachi"
+        android:icon="@drawable/zadachi"
+        android:title="@string/title_zadachi"></item>
+    <item
+        android:id="@+id/nav_sett"
+        android:icon="@drawable/sett"
+        android:title="@string/title_sett"></item>
+    <item
+        android:id="@+id/nav_prof"
+        android:icon="@drawable/prof"
+        android:title="@string/title_prof"></item>
+</menu>

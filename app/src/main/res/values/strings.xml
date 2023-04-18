@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">BE FREE</string>
+    <string name="edit_login">Логин</string>
+    <string name="edit_password">Пароль</string>
+    <string name="edit_email">Эл.почта</string>
+    <string name="title_home">Главная</string>
+    <string name="title_zadachi">Задачи</string>
+    <string name="title_sett">Настройки</string>
+    <string name="title_prof">Профиль</string>
+    <string name="prof_name">Имя</string>
+    <string name="prof_fam">Фамилия</string>
+    <string name="prof_otch">Отчество</string>
+    <string name="prof_date">Дата рождения</string>
+    <string name="prof_znak">Знак зодиака</string>
+    <string name="categor">Категории</string>
+</resources>

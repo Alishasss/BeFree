@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment_Home"
+    android:background="@drawable/fon">
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="180dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Главная"
+                android:textSize="40dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="30dp"></TextView>
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:orientation="vertical">
+
+               <EditText
+                   android:layout_width="match_parent"
+                   android:layout_height="40dp"
+                   android:layout_marginLeft="10dp"
+                   android:layout_marginTop="100dp"
+                   android:layout_marginRight="15dp"
+                   android:background="@drawable/poisk"
+                   android:backgroundTint="@android:color/darker_gray"
+                   android:textColor="@color/black"
+                   android:textColorHint="@android:color/darker_gray"
+                   android:textSize="15dp"
+                   tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck"></EditText>
+           </LinearLayout>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/pic_poisk"
+                android:layout_gravity="right|bottom"
+                android:layout_marginRight="35dp"
+                android:layout_marginBottom="48dp"
+
+
+                ></ImageView>
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:background="@drawable/liner_bord"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp">
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Все победы начинаются с победы над самим собой"
+                    android:lines="4"
+                    android:textSize="32dp"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    ></TextView>
+            </LinearLayout>
+        </FrameLayout>
+       <LinearLayout
+           android:layout_weight="1"
+           android:orientation="horizontal"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+           <FrameLayout
+               android:layout_weight="1"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent">
+
+               <androidx.appcompat.widget.AppCompatButton
+                   android:layout_width="match_parent"
+                   android:layout_height="80dp"
+                   android:layout_marginLeft="15dp"
+                   android:layout_marginRight="15dp"
+                   android:background="@drawable/btnbord"
+                   android:fontFamily="sans-serif-medium"
+                   android:text="Цитаты"
+                   android:textAllCaps="false"
+                   android:textColor="@color/white"
+                   android:textSize="20dp"
+                   android:id="@+id/categor"></androidx.appcompat.widget.AppCompatButton>
+               <androidx.appcompat.widget.AppCompatButton
+                   android:layout_width="match_parent"
+                   android:layout_height="80dp"
+                   android:background="@drawable/btnbord"
+                   android:text="Тренировка"
+                   android:textColor="@color/white"
+                   android:textSize="20dp"
+                   android:layout_marginTop="100dp"
+                   android:layout_marginLeft="15dp"
+                   android:layout_marginRight="15dp"
+                   android:textAllCaps="false"></androidx.appcompat.widget.AppCompatButton>
+           </FrameLayout>
+           <FrameLayout
+               android:layout_weight="1"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent">
+               <androidx.appcompat.widget.AppCompatButton
+                   android:layout_width="match_parent"
+                   android:layout_height="80dp"
+                   android:background="@drawable/btnbord"
+                   android:layout_marginLeft="15dp"
+                   android:layout_marginRight="15dp"
+                   android:text="Музыка"
+                   android:textColor="@color/white"
+                   android:textSize="20dp"
+                   android:textAllCaps="false"></androidx.appcompat.widget.AppCompatButton>
+               <androidx.appcompat.widget.AppCompatButton
+                   android:layout_width="match_parent"
+                   android:layout_height="80dp"
+                   android:background="@drawable/btnbord"
+                   android:text="Гороскоп"
+                   android:textColor="@color/white"
+                   android:textSize="20dp"
+                   android:layout_marginLeft="15dp"
+                   android:layout_marginRight="15dp"
+                   android:layout_marginTop="100dp"
+                   android:textAllCaps="false"></androidx.appcompat.widget.AppCompatButton>
+           </FrameLayout>
+
+
+       </LinearLayout>
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@drawable/btnbord"
+            android:text="Мои задачи"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:layout_margin="20dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:textAllCaps="false"
+            android:id="@+id/mytask"
+            ></androidx.appcompat.widget.AppCompatButton>
+
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

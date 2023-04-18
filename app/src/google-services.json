@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "877137221695",
+    "project_id": "befree-f8510",
+    "storage_bucket": "befree-f8510.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:877137221695:android:66a1ba73fddf7ff890408a",
+        "android_client_info": {
+          "package_name": "com.example.befree"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "877137221695-g098ill1i7cghhf8d3u83q4vlsp6odbn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCk_TDC_f6RAqMOSNRbDUFtGPJl7kVUzfY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "877137221695-g098ill1i7cghhf8d3u83q4vlsp6odbn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
